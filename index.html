@@ -5829,7 +5829,7 @@ function is_professor_here(subj)
 function is_professor_here_today(subj)
 {
 	if (day_of_week >= 0 && day_of_week <= 5) {
-		return timesheet[day_of_week][subj].where;
+		return timesheet[day_of_week][subj].where == current_place;
 	} else {
 		return 0;
 	}
