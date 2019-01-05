@@ -6436,7 +6436,7 @@ function show_timesheet()
 	GotoXY(1, 0x17); 
 
 	if (hero.exams_left == 0) {
-		colored_output(0, aVseUjeSdano); 
+		colored_output(0xF, aVseUjeSdano); 
 	} else if (hero.exams_left == 1) {
 		output_with_highlighted_num(7, aOstalsq, 0xD, 1, aZacet_0);
 	} else if (hero.exams_left < 5) {
