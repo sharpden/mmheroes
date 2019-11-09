@@ -6825,7 +6825,9 @@ function report_bug()
 
 function dev_replay()
 {
-	Replay.data = JSON.parse(prompt('Paste string from tester'));
+	var input = prompt('Paste string from tester');
+	if (input === null || input === '') { return; }
+	Replay.data = JSON.parse(input);
 	Replay.data.on = 1;
 	Main();
 }
