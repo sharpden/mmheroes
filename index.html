@@ -596,6 +596,7 @@ function readln()
 	}
 	_update_screen();
 	var res = prompt('Enter string:', get_user_name());
+	if (res === null) { res = ''; }
 	Replay.record_string(res);
 	return res;
 }
