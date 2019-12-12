@@ -5,3 +5,5 @@ This is Javascript port of DOS text quest game "mmheroes" http://mmheroes.chat.r
 Obtained by handmade decompilation, process is described at https://sharpc.livejournal.com/75856.html (in Russian).
 
 Available at https://sharpden.github.io/mmheroes/
+
+![Screenshot](https://github.com/sharpden/mmheroes/blob/master/screenshot.png?raw=true)
